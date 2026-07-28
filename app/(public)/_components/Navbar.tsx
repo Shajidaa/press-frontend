@@ -3,7 +3,11 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 
-export function Navbar() {
+
+
+export async  function Navbar() {
+
+  
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "Features", href: "#" },
